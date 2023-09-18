@@ -7,7 +7,7 @@ const mapStateToProps = (state: AppState) => ({
 });
 const mapDispatchToProps = {};
 
-const connector = connect(mapStateToProps, mapDispatchToProps);  // This is connector for alert
+const connector = connect(mapStateToProps, mapDispatchToProps);
 interface Props extends ConnectedProps<typeof connector> {}
 
 const _AppAlert = (props: Props) => {
